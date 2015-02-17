@@ -135,7 +135,7 @@ namespace PcgRandom {
 		/// </summary>
 		/// <returns>A <see cref="System.String"/> that represents the current <see cref="PcgRandom.Pcg"/>.</returns>
 		public override string ToString() {
-			return string.Format("[Pcg state: {0}; sequence: {1}", m_state, m_inc);
+			return string.Format("[Pcg state: {0}; sequence: {1}]", m_state, m_inc);
 		}
 	}
 }
